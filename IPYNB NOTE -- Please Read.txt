@@ -1,0 +1,7 @@
+Note if running any of the code in the .ipynb--
+
+Many of the csv files are already provided in the documentation, so data processing cells should not need to be run.
+Please update the path file appropriately--it needs to point to the parent maestro-v3.0.0 folder, otherwise the 'midi_filename' variables will not work.
+filtered_data is necessary for the PCA analysis cells to work properly, as well as for the classifier training and testing.
+scaled_gen is necessary for the LSTM PCA analysis cell and classifier testing.
+scaled_markov is necessary for the  Markov Chain PCA analysis cell and classifier testing.
